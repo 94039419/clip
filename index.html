@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href='css/mycss.css' />
+<script src="js/myjs.js"></script>
+<script src="js/jquery-1.8.1.min.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<title>图片剪裁</title>
+</head>
+
+<body id="mybody">
+	<div class="original_img" id="original_img">
+    	<img src="img/1.jpg" class="img_tag" id="org_img"/>
+    </div>
+    
+    <div class="clip_img" id="clip_img">
+    	<img src="img/1.jpg" class="imgClip" id="imgClip"/>
+    </div>
+    
+    <div class="marquee" id="marquee">
+    	<div class="nw rect" id="pos_nw"></div>
+        <div class="n rect" id="pos_n"></div>
+        <div class="ne rect" id="pos_ne"></div>
+        <div class="e rect" id="pos_e"></div>
+        <div class="es rect" id="pos_es"></div>
+        <div class="s rect" id="pos_s"></div>
+        <div class="sw rect" id="pos_sw"></div>
+        <div class="w rect" id="pos_w"></div>
+    </div>
+    
+    <div class="copy_img" id="copy_img">
+    	<img src="img/1.jpg" class="imgCopy" id="imgCopy"/>
+    </div>
+</body>
+</html>
